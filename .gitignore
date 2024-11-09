@@ -1,32 +1,13 @@
-# Prerequisites
-*.d
+# 忽略所有文件
+*
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# 保留文件夹结构
+!*/
+build
+# 仅保留 .cpp、.h 和 .md 文件
+!*.cpp
+!*.h
+!*.md
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# 保留 .gitignore 文件本身
+!.gitignore
